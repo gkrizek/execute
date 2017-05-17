@@ -2,7 +2,7 @@
   "name": "execute",
   "main": "./lib/execute",
   "version": "1.0.0",
-  "description": "CLI in Atom",
+  "description": "A Terminal in Atom",
   "keywords": [
     "command",
     "terminal",
