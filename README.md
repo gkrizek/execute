@@ -15,6 +15,8 @@ Run commands without leaving Atom.
 | `toggle-panel`        | <kbd>cmd-ctrl-x</kbd>           | <kbd>shift-ctrl-x</kbd>       | toggle the output panel               |
 
 
+Includes tab autocompletion and color output support. 
+
 
 ### Example
 
