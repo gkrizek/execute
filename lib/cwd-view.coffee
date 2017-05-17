@@ -24,7 +24,7 @@ class CWDView extends SelectListView
          @previousElement.focus()
        @panel.hide()
 
-   @on 'focusout', =>
+   @on 'blur', =>
      @panel.hide()
 
   viewForItem: (item) ->

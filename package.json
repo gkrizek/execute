@@ -1,7 +1,7 @@
 {
   "name": "execute",
   "main": "./lib/execute",
-  "version": "1.12.2",
+  "version": "1.0.0",
   "description": "CLI in Atom",
   "keywords": [
     "command",

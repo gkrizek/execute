@@ -13,7 +13,7 @@ class CommandEntry extends SelectListView
     @focusFilterEditor()
     @panel.show()
 
-    @on 'focusout', =>
+    @on 'blur', =>
       @panel.hide()
 
     @.on 'keydown', (e) =>
@@ -23,6 +23,7 @@ class CommandEntry extends SelectListView
       else if e.keyCode is 13
         @confirmed(@filterEditorView.getText())
         CommandEntryView.runCommand(@filterEditorView.getText())
+        @panel.hide()
       else if e.keyCode is 27
         @panel.hide()
 

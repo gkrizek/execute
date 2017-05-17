@@ -38,8 +38,6 @@ class RunCommandView extends View
       'core:cancel': =>
         @hide()
 
-  serialize: ->
-
   setWorkingDirectory: =>
 
     if not @cwd?
@@ -48,7 +46,6 @@ class RunCommandView extends View
       @toggleCWD()
 
   toggle: =>
-
     if not @entry?
       @entry ?= new CommandEntry(@)
     else
