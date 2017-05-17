@@ -4,17 +4,17 @@ Run commands without leaving Atom.
 
 ## Commands:
 
-- `command` - execute a terminal command
 
-- `copy` - copy the output of the last command
+| Command               | macOS Shortcut                  | Linux Shortcut                | Notes                                 |
+|:----------------------|:--------------------------------|:------------------------------|:--------------------------------------|
+| `command`             | <kbd>cmd-ctrl-r</kbd>           | <kbd>shift-ctrl-r</kbd>       | execute a terminal command            |
+| `copy`                | <kbd>cmd-ctrl-alt-c</kbd>       | <kbd>shift-ctrl-alt-c</kbd>   | copy the output of the last command   |
+| `cwd`                 | <kbd>cmd-ctrl-w</kbd>           | <kbd>shift-ctrl-w</kbd>       | set the current working directory     |
+| `re-run-last-command` | <kbd>cmd-ctrl-alt-r</kbd>       | <kbd>shift-ctrl-alt-r</kbd>   | run your last executed command again  |
+| `kill-last-command`   | <kbd>cmd-ctrl-alt-x</kbd>       | <kbd>shift-ctrl-alt-x</kbd>   | terminate the last command you ran    |
+| `toggle-panel`        | <kbd>cmd-ctrl-x</kbd>           | <kbd>shift-ctrl-x</kbd>       | toggle the output panel               |
 
-- `cwd` - set the current working directory
 
-- `re-run-last-command` - run your last executed command again
-
-- `kill-last-command` - terminate the last command you ran
-
-- `toggle-panel` - toggle the output panel
 
 ### Example
 
