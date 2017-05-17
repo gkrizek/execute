@@ -1,0 +1,176 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.execute {
+  min-height: 100px;
+}
+
+.execute .inset-panel {
+  left:0;
+  right:0;
+  margin:0;
+  width:auto;
+}
+
+.execute .results {
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.cursor {
+  border-color: pink;
+}
+
+.commandEntry {
+  width: 100%;
+  background-color: @app-background-color;
+  color: @text-color;
+}
+
+.execute-reset {
+  text-decoration: none !important;
+  color: @text-color !important;
+  font-weight: normal !important;
+  font-style: default !important;
+}
+
+.execute-bold {
+  font-weight: bold;
+}
+
+.execute-italics {
+  font-style: italic;
+}
+
+.execute-underline {
+  color: @text-color-highlight;
+  text-decoration: underline;
+}
+
+.execute-inverse {
+  color: @base-background-color;
+  background-color: @text-color;
+}
+
+.execute-strikethrough {
+  text-decoration: line-through;
+}
+
+.execute-no-bold {
+  font-weight: normal;
+}
+
+.execute-no-italics {
+  font-style: normal;
+}
+
+.execute-no-underline {
+  text-decoration: none;
+}
+
+.execute-no-inverse {
+  color: @text-color;
+  background-color: @base-background-color;
+}
+
+.execute-no-strikethrough {
+  text-decoration: none;
+}
+
+.execute-black {
+  color: #000;
+}
+
+.execute-red {
+  color: #F00;
+}
+
+.execute-green {
+  color: #0F0;
+}
+
+.execute-yellow {
+  color: #FF0;
+}
+
+.execute-blue {
+  color: #00F;
+}
+
+.execute-purple {
+  color: #800080;
+}
+
+.execute-cyan {
+  color: #0FF;
+}
+
+.execute-white {
+  color: #FFF;
+}
+
+.execute-default {
+  color: @text-color-highlight;
+}
+
+.execute-background-black {
+  background-color: #000;
+}
+
+.execute-background-red {
+  background-color: #F00;
+}
+
+.execute-background-green {
+  background-color: #0F0;
+}
+
+.execute-background-yellow {
+  background-color: #FF0;
+}
+
+.execute-background-blue {
+  background-color: #00F;
+}
+
+.execute-background-purple {
+  background-color: #800080;
+}
+
+.execute-background-cyan {
+  background-color: #0FF;
+}
+
+.execute-background-white {
+  background-color: #FFF;
+}
+
+.execute-background-default {
+  background-color: @base-background-color;
+}
+
+.execute-resize-handle {
+  cursor: ns-resize;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+}
+
+.execute-close-icon::before {
+  font-family: 'Octicons Regular';
+  font-size: 12px;
+  width: 12px;
+  height: 12px;
+  content: "\f081";
+  position: absolute;
+  right: 10px;
+}
+
+.execute-close-icon:hover {
+  color: @text-color-highlight;
+}

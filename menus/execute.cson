@@ -1,0 +1,35 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Execute'
+      'submenu': [
+        {
+          'label':   'Execute a command'
+          'command': 'execute:command'
+        }
+        {
+          'label':   'Set working directory'
+          'command': 'execute:cwd'
+        }
+        {
+          'label':   'Re-run last command'
+          'command': 'execute:re-run-last-command'
+        }
+        {
+          'label':   'Toggle command pane'
+          'command': 'execute:toggle-panel'
+        }
+        {
+          'label':   'Kill last command'
+          'command': 'execute:kill-last-command'
+        },
+        {
+          'label':   'Copy buffer text'
+          'command': 'execute:copy'
+        }
+      ]
+    ]
+  }
+]

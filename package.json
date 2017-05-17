@@ -1,0 +1,34 @@
+{
+  "name": "execute",
+  "main": "./lib/execute",
+  "version": "1.12.2",
+  "description": "CLI in Atom",
+  "keywords": [
+    "command",
+    "terminal",
+    "execute",
+    "unix",
+    "run"
+  ],
+  "homepage": "https://github.com/gkrizek/execute",
+  "bugs": "https://github.com/gkrizek/execute/issues",
+  "author": "Graham Krizek",
+  "activationCommands": {
+    "atom-workspace": [
+      "execute:command",
+      "execute:re-run-last-command",
+      "execute:toggle-panel",
+      "execute:kill-last-command",
+      "execute:cwd",
+      "execute:copy"
+    ]
+  },
+  "repository": "https://github.com/gkrizek/execute",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0"
+  }
+}
