@@ -35,6 +35,7 @@ class CommandRunnerView extends View
   resizeCommandRunnerView: ({pageY, which}) =>
     return @resizeStopped() unless which is 1
     height = @outerHeight() + @offset().top - pageY
+    $('.results').height(height)
     @height(height)
 
   destroy: ->
