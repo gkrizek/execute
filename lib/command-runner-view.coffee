@@ -36,6 +36,7 @@ class CommandRunnerView extends View
     return @resizeStopped() unless which is 1
     height = @outerHeight() + @offset().top - pageY
     $('.results').height(height)
+    $('pre').css({'padding-bottom': '50px'});
     @height(height)
 
   destroy: ->
