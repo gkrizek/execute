@@ -2,8 +2,14 @@
 
 Run commands without leaving Atom.
 
-## Commands:
+## Features:
 
+- tab autocompletion
+- color output
+- setting the working directory
+- copy and paste the output
+
+## Commands:
 
 | Command               | macOS Shortcut                  | Linux Shortcut                | Notes                                 |
 |:----------------------|:--------------------------------|:------------------------------|:--------------------------------------|
@@ -14,15 +20,10 @@ Run commands without leaving Atom.
 | `kill-last-command`   | <kbd>cmd-ctrl-alt-x</kbd>       | <kbd>shift-ctrl-alt-x</kbd>   | terminate the last command you ran    |
 | `toggle-panel`        | <kbd>cmd-ctrl-x</kbd>           | <kbd>shift-ctrl-x</kbd>       | toggle the output panel               |
 
-
-Includes tab autocompletion and color output support. 
-
-
 ### Example
 
 Run tests, installs, or deploys right in Atom
 
 ![](screenshots/deploy.gif)
-
 
 _This package is based on [run-command](https://atom.io/packages/run-command) and [run-command2](https://atom.io/packages/run-command2)_
