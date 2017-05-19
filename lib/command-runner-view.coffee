@@ -11,8 +11,8 @@ class CommandRunnerView extends View
         @span 'Command: '
         @span outlet: 'header'
         @span class: 'execute-close-icon', outlet: 'closeIcon'
-      @div class: 'panel-body padded results', outlet: 'resultsContainer', =>
-        @pre '', outlet: 'results'
+      @div class: 'panel-body padded results execute-results-panel', outlet: 'resultsContainer', =>
+        @pre class: 'execute-results', outlet: 'results'
       @div class: 'execute-resize-handle', outlet: 'resizeHandle'
 
   initialize: ->
@@ -35,8 +35,8 @@ class CommandRunnerView extends View
   resizeCommandRunnerView: ({pageY, which}) =>
     return @resizeStopped() unless which is 1
     height = @outerHeight() + @offset().top - pageY
-    $('.results').height(height)
-    $('pre').css({'padding-bottom': '50px'});
+    $('.execute-results-panel').height(height)
+    $('.execute-results').css({'padding-bottom': '50px'});
     @height(height)
 
   destroy: ->
