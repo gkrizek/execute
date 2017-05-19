@@ -6,16 +6,18 @@
 # https://atom.io/docs/latest/advanced/keymaps
 '.platform-darwin atom-text-editor':
   'cmd-ctrl-r':       'execute:command'
+  'cmd-ctrl-b':       'execute:background'
   'cmd-ctrl-x':       'execute:toggle-panel'
   'cmd-ctrl-alt-x':   'execute:kill-last-command'
   'cmd-ctrl-alt-r':   'execute:re-run-last-command'
   'cmd-ctrl-w':       'execute:cwd'
-  'cmd-ctrl-alt-c': 'execute:copy'
+  'cmd-ctrl-alt-c':   'execute:copy'
 
 '.platform-linux atom-text-editor':
   'shift-ctrl-r':       'execute:command'
+  'shift-ctrl-b':       'execute:background'
   'shift-ctrl-x':       'execute:toggle-panel'
   'shift-ctrl-alt-x':   'execute:kill-last-command'
   'shift-ctrl-alt-r':   'execute:re-run-last-command'
   'shift-ctrl-w':       'execute:cwd'
-  'shift-ctrl-alt-c': 'execute:copy'
+  'shift-ctrl-alt-c':   'execute:copy'

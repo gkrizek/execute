@@ -16,6 +16,7 @@
   "activationCommands": {
     "atom-workspace": [
       "execute:command",
+      "execute:background",
       "execute:re-run-last-command",
       "execute:toggle-panel",
       "execute:kill-last-command",
