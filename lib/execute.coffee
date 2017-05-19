@@ -12,6 +12,9 @@ module.exports =
     snapCommandResultsToBottom:
       type: 'boolean'
       default: true
+    backgroundCommand:
+      type: 'boolean'
+      default: false
 
   runCommandView: null
   commandRunnerView: null

@@ -20,6 +20,10 @@ class RunCommandView extends View
     @commandRunnerView = commandRunnerView
 
     atom.commands.add 'atom-workspace', 'execute:command', =>
+      atom.config.set("execute.backgroundCommand", false)
+      @toggle()
+    atom.commands.add 'atom-workspace', 'execute:background', =>
+      atom.config.set("execute.backgroundCommand", true)
       @toggle()
     atom.commands.add 'atom-workspace', 'execute:re-run-last-command', =>
       @reRunCommand()

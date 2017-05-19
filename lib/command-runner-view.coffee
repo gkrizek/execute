@@ -77,14 +77,16 @@ class CommandRunnerView extends View
 
     @commandRunner = new CommandRunner(command, cwd, @render)
     @commandRunner.runCommand()
-    @showPanel()
+    if !atom.config.get("execute.backgroundCommand")
+      @showPanel()
 
   reRunCommand: (e) =>
     if @commandRunner?
       @commandRunner.kill()
 
       @commandRunner.runCommand()
-      @showPanel()
+      if !atom.config.get("execute.backgroundCommand")
+        @showPanel()
     else
 
 
